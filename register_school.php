@@ -1,0 +1,1 @@
+<?php require 'app.php';if(u()){if(owner())go('schools.php');go('index.php');}http_response_code(403);page('School registration disabled','<div class="panel">Schools are registered by the Platform Owner. Please contact the platform administrator.</div>');

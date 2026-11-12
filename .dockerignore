@@ -1,0 +1,6 @@
+.git
+.env
+config.php
+*.zip
+uploads/
+__pycache__/

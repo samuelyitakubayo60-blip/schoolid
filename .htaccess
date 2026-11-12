@@ -1,0 +1,4 @@
+Options -Indexes
+<FilesMatch "^(\.env|\.env\.example|composer\.(json|lock)|Dockerfile|docker-compose\.yml)$">
+  Require all denied
+</FilesMatch>
